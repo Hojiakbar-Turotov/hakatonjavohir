@@ -26,7 +26,7 @@
                 <li><a href="#sectionthreediv">Testiminial</a></li>
                 <li><a href="#sectionfivediv">FAQ</a></li>
                 <li><a href="#" class="btn" onclick="buttononenav()">Try for free</a></li>
-                <li><img src="../system/img/image-servise.png" alt="" class="imgservices" onclick="kunvatun()"></li>
+                <li id="idullikuntunfon"><img src="../system/img/image-servise.png" alt="" class="imgservices" onclick="kunvatun()"></li>
                 <div id="navminiicon">
                     <div class="navminiicon" onclick="myfunksiyanavbaricon()">
                         <div class="divone"></div>
@@ -352,6 +352,19 @@
         </a>
     </div>
     <script src="../system/js/app.js"></script>
+    <style>
+        @media (max-width:999px){
+           #kunvatun{
+               display:none;
+           } 
+           #kuntunfon{
+               display:none;
+           }
+           #idullikuntunfon{
+               display:none;
+           }
+        }
+    </style>
 </body>
 
 </html>
